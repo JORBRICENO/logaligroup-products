@@ -1,1 +1,3 @@
 docker run -d --name logaligroup-products -e POSTGRES_USER=logaligroup -e POSTGRES_PASSWORD=w8iu767q70a1 -e POSTGRES_DB=products -p7000:5432 postgres:alpine3.18
+
+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
