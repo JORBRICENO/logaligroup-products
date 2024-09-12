@@ -1,0 +1,26 @@
+{
+  "name": "logali-products",
+  "version": "1.0.0",
+  "description": "Service OData V4 - Products",
+  "repository": "https://github.com/JORBRICENO/logaligroup-products.git",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@cap-js/postgres": "^1.10.0",
+    "@sap/cds": "^8.2.1",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^5"
+  },
+  "cds": {
+    "requires": {
+      "[dev]": {
+        "kind": "@cap-js/postgres"
+      }
+    }
+  },
+  "scripts": {
+    "start": "cds-serve --profile dev"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "requires": {
+      "db": {
+        "[dev]": {
+          "kind": "postgres",
+          "credentials": {
+            "host": "localhost", 
+            "port": 7000,
+            "user": "logaligroup",
+            "password": "w8iu767q70a1",
+            "database": "products"
+          }
+        }
+      }
+    }
+  }
+
+  
