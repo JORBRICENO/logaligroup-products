@@ -22,6 +22,6 @@
     }
   },
   "scripts": {
-    "start": "cds-serve --profile dev"
+    "start": "cds-serve --profile prd"
   }
 }
