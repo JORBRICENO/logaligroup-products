@@ -1,0 +1,4 @@
+code;name;criticality
+Available;In stock;3
+LowAvailability;Low availability;2
+NotAvailable;Not in stock;1
