@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@cap-js-community/odata-v2-adapter": "^1.13.2",
     "@cap-js/postgres": "^1.10.0",
     "@sap/cds": "^8.2.1",
     "express": "^4.21.0"
