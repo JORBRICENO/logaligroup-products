@@ -17,10 +17,13 @@
     "requires": {
       "[dev]": {
         "kind": "@cap-js/postgres"
+      },
+      "[dgo]":{
+        "kind":"@cap-js/postgres"
       }
     }
   },
   "scripts": {
-    "start": "cds-serve --profile dev"
+    "start": "cds-serve --profile dgo"
   }
 }

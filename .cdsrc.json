@@ -10,6 +10,16 @@
             "password": "w8iu767q70a1",
             "database": "products"
           }
+        },
+        "[dgo]": {
+          "kind": "postgres",
+          "credentials": {
+            "host":"159.65.96.144",
+            "port":7000,
+            "user":"logaligroup",
+            "password":"w8iu767q70a1",
+            "database":"products"
+          }
         }
       }
     }
