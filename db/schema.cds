@@ -8,9 +8,9 @@ using {
 
 
 entity Products : cuid, managed {
-    product     : String(6);
+    product     : String(7);
     productName : String(40);
-    description : String;
+    description : LargeString;
     supplier    : Association to Suppliers;
     category    : Association to Categories;
     subCategory : Association to SubCategories;
