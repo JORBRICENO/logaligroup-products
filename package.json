@@ -17,14 +17,17 @@
   "cds": {
     "requires": {
       "[dev]": {
+        "kind": "@cap-js/sqlite"
+      },
+      "[pg]": {
         "kind": "@cap-js/postgres"
       },
-      "[dgo]":{
+      "[dg]":{
         "kind":"@cap-js/postgres"
       }
     }
   },
   "scripts": {
-    "start": "cds-serve --profile dgo"
+    "start": "cds-serve --profile dev"
   }
 }
