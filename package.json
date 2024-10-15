@@ -28,6 +28,6 @@
     }
   },
   "scripts": {
-    "start": "cds-serve --profile dev"
+    "start": "cds deploy --profile dev && cds-serve --profile dev"
   }
 }
