@@ -2,6 +2,12 @@
     "requires": {
       "db": {
         "[dev]": {
+          "kind": "sqlite",
+          "credentials": {
+            "database": "db.sqlite"
+          }
+        },
+        "[pg]": {
           "kind": "postgres",
           "credentials": {
             "host": "localhost", 
@@ -11,7 +17,7 @@
             "database": "products"
           }
         },
-        "[dgo]": {
+        "[dg]": {
           "kind": "postgres",
           "credentials": {
             "host":"159.65.96.144",

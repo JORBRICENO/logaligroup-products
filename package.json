@@ -8,6 +8,7 @@
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.13.2",
     "@cap-js/postgres": "^1.10.0",
+    "@cap-js/sqlite": "^1.7.3",
     "@sap/cds": "^8.2.1",
     "express": "^4.21.0"
   },
@@ -17,14 +18,17 @@
   "cds": {
     "requires": {
       "[dev]": {
+        "kind": "@cap-js/sqlite"
+      },
+      "[pg]": {
         "kind": "@cap-js/postgres"
       },
-      "[dgo]":{
-        "kind":"@cap-js/postgres"
+      "[dg]": {
+        "kind": "@cap-js/postgres"
       }
     }
   },
   "scripts": {
-    "start": "cds-serve --profile dgo"
+    "start": "cds deploy --profile dev && cds-serve --profile dev"
   }
 }
