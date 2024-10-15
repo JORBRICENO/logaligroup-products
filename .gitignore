@@ -1,7 +1,6 @@
 # CAP logali-products
 _out
 *.db
-*.sqlite
 *.txt
 connection.properties
 default-*.json
